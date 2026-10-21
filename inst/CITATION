@@ -1,0 +1,27 @@
+citHeader("To cite boundedHill in publications, please use:")
+
+authors <- c(person("Minji", "Lee"),
+             person("Chang Hyeong", "Lee"),
+             person("Ryung S.", "Kim"))
+
+bibentry(
+  bibtype = "Unpublished",
+  title   = "A Novel Bayesian Phase 1/2 Design Incorporating the Hill Equation",
+  author  = authors,
+  note    = "Manuscript in preparation"
+)
+
+bibentry(
+  bibtype = "Unpublished",
+  title   = "boundedHill: Bayesian Logistic Regression with Lower and Upper Asymptotes in R",
+  author  = authors,
+  note    = "Manuscript in preparation"
+)
+
+bibentry(
+  bibtype = "Manual",
+  title   = "boundedHill: Bayesian Logistic Regression with Lower and Upper Asymptotes",
+  author  = authors,
+  year    = "2026",
+  note    = paste("R package version", meta$Version)
+)

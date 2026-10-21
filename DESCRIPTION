@@ -1,0 +1,26 @@
+Package: boundedHill
+Type: Package
+Title: Bayesian Logistic Regression with Lower and Upper Asymptotes
+Version: 0.1.0
+Authors@R: c(
+    person("Minji", "Lee", email = "leeminji@unist.ac.kr",
+           role = c("aut", "cre", "cph")),
+    person("Chang Hyeong", "Lee", role = c("aut", "cph")),
+    person("Ryung S.", "Kim", role = c("aut", "cph")))
+Description: Fits Bayesian logistic regression models in which the success probability rises or falls between a lower and an upper asymptote instead of between 0 and 1, for binomial outcomes including binary data. The success probability equals the lower asymptote plus the difference between the two asymptotes multiplied by the logistic function of a linear predictor. The lower and upper asymptotes can be either estimated or fixed. With a single predictor such as log dose, this is the four-parameter logistic (Hill) model. Posterior computation is a full Gibbs sampler that requires no tuning.
+License: GPL (>= 3)
+Encoding: UTF-8
+Language: en-US
+Depends: R (>= 4.1.0)
+Imports: BayesLogit, graphics, grDevices, posterior, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-10 10:53:55 UTC; gangj
+Author: Minji Lee [aut, cre, cph],
+  Chang Hyeong Lee [aut, cph],
+  Ryung S. Kim [aut, cph]
+Maintainer: Minji Lee <leeminji@unist.ac.kr>
+Repository: CRAN
+Date/Publication: 2026-10-21 14:40:08 UTC
